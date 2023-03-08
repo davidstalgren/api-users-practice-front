@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userList {
+    background-color: aqua;
+    color: black;
+}

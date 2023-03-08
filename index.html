@@ -4,19 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello Users!</h1>
 
-    <ul id="userList"></ul>
-
-    <div>
-        <input type="text" id="newUser">
-        <button id="saveUserBtn">Spara</button>
+    <div id="head">
+        <h1>Hello Users!</h1>
+        <div id="menu">
+            <button id="showUserListBtn">Show users</button>
+        </div>
+        <div id="userForm"></div>
     </div>
 
+    <div id="root">
 
+    </div>
+
+<!--     <ul id="userList"></ul> -->
+
+    <div>
+        <h3>Add user here:</h3>
+        <input type="text" id="newUser">
+        <input type="text" id="newUserPassword">
+        <button id="saveUserBtn">Save</button>
+    </div>
+
+<!--     <div>
+        <h3>Log in here:</h3>
+        <input type="text" id="loginUsername" placeholder="Username">
+        <input type="text" id="loginUserPassword" placeholder="Password"> 
+        <button id="loginUserBtn">Log in</button>
+    </div> -->
+
+    <h2 id="userGreeting">Good morning!!</h2>
+    <button id="logoutUserBtn">Log out</button>
     <script type="module" src="script.js" defer></script>
 </body>
 </html>
